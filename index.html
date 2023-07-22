@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+  <h1>CALCULATOR CREATED BY RUKUNDO JANVIER </h1>
+</head>
+<body>
+    <div id="calculator">
+        <input type="text" id="display" disabled />
+        <button onclick="addNumber(7)">7</button>
+        <button onclick="addNumber(8)">8</button>
+        <button onclick="addNumber(9)">9</button>
+        <button onclick="addNumber(4)">4</button>
+        <button onclick="addNumber(5)">5</button>
+        <button onclick="addNumber(6)">6</button>
+        <button onclick="addNumber(1)">1</button>
+        <button onclick="addNumber(2)">2</button>
+        <button onclick="addNumber(3)">3</button>
+        <button onclick="addNumber(0)">0</button>
+        <button onclick="addOperator('.')">.</button>
+        <button onclick="equals()">=</button>
+        <button class="operator" onclick="addOperator('*')">x</button>
+        <button class="operator" onclick="addOperator('/')">÷</button>
+        <button class="operator" onclick="addOperator('+')">+</button>
+        <button class="operator" onclick="addOperator('-')">-</button>
+        <button onclick="clearCalculator()" style="grid-column: span 3;">C</button>
+      </div>
+  <script src="script.js"></script>
+</body>
+</html>
